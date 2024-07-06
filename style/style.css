@@ -1,0 +1,15 @@
+body{
+    overflow-x: hidden;
+}
+
+.banner-slider{
+    background-image: url('./../assets/civil_war.jpg');
+    min-height: 450px;
+}
+
+
+@media (min-width: 1280px){
+    .banner-slider{
+        min-width: 850px;
+    }
+}
